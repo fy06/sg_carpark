@@ -26,7 +26,7 @@ def head():
         Find out how many parking lots are available!
         </p>""", unsafe_allow_html=True)
 
-    st.write(f"<p style='text-align: left; color:dark pink'> Current Date Time: {now_modifed}</p>", unsafe_allow_html=True)
+    st.write(f"<p style='text-align: left; color:Dark Pink'> Current Date Time: {now_modifed}</p>", unsafe_allow_html=True)
 
 
 @st.cache(allow_output_mutation=True)
